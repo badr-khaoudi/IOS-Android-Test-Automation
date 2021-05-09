@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-is-a-login-feature;this-is-the-login-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "This is the login scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Input Credentials",
+            "match": {
+              "location": "features\\Steps\\Login.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User logs in",
+            "match": {
+              "location": "features\\Steps\\Login.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 871000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1034000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-is-a-login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "This is a Login feature",
+    "tags": [],
+    "uri": "features\\Login.feature"
+  }
+]
