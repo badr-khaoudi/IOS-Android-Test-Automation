@@ -37,8 +37,6 @@ Before( {timeout: 6000 * 10000}, async function () {
     driver = await new wd.Builder().usingServer("http://hub-cloud.browserstack.com/wd/hub").withCapabilities(desiredCaps).build();
     console.log('');  
 
-    /*driver.wait(until.elementLocated(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText")),1000);
-    driver.findElement(By.xpath("//*[@text='Username']")).sendKeys("user2");*/
     
 })
 
@@ -68,7 +66,6 @@ Then(/^User logs in$/, {timeout: 6000 * 1000}, async () => {
      } catch (error) {    
     }  
 });
-
 
 // After function to release the Driver
 After(async function() {
